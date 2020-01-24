@@ -1,0 +1,53 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "@polymer/app-layout": "^3.0.2",
+    "@polymer/app-route": "^3.0.2",
+    "@polymer/iron-icons": "^3.0.1",   
+    "@polymer/iron-iconset-svg": "^3.0.1",
+    "@polymer/iron-list": "^3.0.1",    
+    "@polymer/iron-pages": "^3.0.1",
+    "@polymer/iron-selector": "^3.0.1",     
+    "@polymer/neon-animation": "^3.0.1",  
+    "@polymer/paper-button": "^3.0.1",  
+    "@polymer/paper-checkbox": "^3.1.0",
+    "@polymer/paper-dialog": "^3.0.1",
+    "@polymer/paper-dropdown-menu": "^3.0.1",
+    "@polymer/paper-input": "^3.0.1",    
+    "@polymer/paper-item": "^3.0.1",
+    "@polymer/paper-listbox": "^3.0.1",
+    "@polymer/paper-toast": "^3.0.1",
+    "@polymer/paper-toggle-button": "^3.0.1",
+    "@polymer/paper-tooltip": "^3.0.1",  
+    "@polymer/iron-flex-layout": "^3.0.1",
+    "@polymer/paper-toolbar": "^3.0.1",
+    "@polymer/polymer": "^3.3.0",
+    "@soma/layout-soma": "git+ssh://git@bitbucket.org:somaelements/layout-soma.git#semver:^3.0.0", 
+    "@soma/soma-icon-button": "git+ssh://git@bitbucket.org:somaelements/soma-icon-button.git#semver:^3.0.0",
+    "@soma/soma-styles": "git+ssh://git@bitbucket.org:somaelements/soma-styles.git#semver:^3.0.0",
+    "@soma/soma-utils": "git+ssh://git@bitbucket.org:somaelements/soma-utils.git#semver:^0.4.0",
+    "@soma/soma-dynamic-common": "git+ssh://git@bitbucket.org/somaelements/soma-dynamic-common.git#semver:^2.1.0",
+    "app-menu-polymer3": "^3.0.1",
+    "reduce-reducers": "^1.0.4",
+    "redux": "^4.0.0",
+    "uuid": "^3.3.3",
+    "web-animations-js": "^2.3.1",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
